@@ -8,18 +8,21 @@
 .Search {
   padding-top: 100px;
 }
+.Search .searchTitle {
+  display: none;
+}
 
 .Search ul {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding-left: 0;
+  margin: 0 auto;
 }
 
 .Search li {
   cursor: pointer;
-  /*transform: scale(0.6);
-  margin: -100px;*/
 }
 
 .searchMovieCard {
@@ -55,5 +58,19 @@ transition: 0.2s linear;
 
 .add-favourite-button:hover {
   transform: scale(1.5);
-  color: gold;
+  color: red;
+}
+
+@media screen and (max-width: 950px) {
+  .Search .searchTitle {
+    color: var(--text-color);
+    font-size: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
+  }
+  .add-favourite-button {
+    transform: scale(1.5);
+  }
 }
