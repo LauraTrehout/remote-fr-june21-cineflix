@@ -1,7 +1,5 @@
 import { useState } from 'react';
 
-import Navbar from '../../components/Navbar/Navbar';
-
 import Swal from 'sweetalert2';
 
 import './Contact.css';
@@ -13,6 +11,7 @@ import mail from "../../assets/mail.png";
 import pint from "../../assets/pinterest.png";
 import tel from "../../assets/tel.png";
 import twit from "../../assets/twitter.png";
+import Navbar from './../../components/navbar/Navbar';
 
 const Contact = () => {
     const [name, setName] = useState("")

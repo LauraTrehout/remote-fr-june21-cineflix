@@ -4,9 +4,8 @@ import { NavLink, useParams } from "react-router-dom"
 
 import Swal from "sweetalert2";
 
-import Navbar from "../../components/Navbar/Navbar"
-
 import "./Search.css"
+import Navbar from './../../components/navbar/Navbar';
 
 const Search = () => {
 
@@ -31,38 +30,6 @@ const Search = () => {
   const resetSearch = () => {
     setSearchResult('')
   }
-
-
-
-/*
-
-
-  const [inFavourite, setInFavourite] = useState(false)
-
-
-  const checkIsFavourite = (id, title) => {
-    let storedDatas
-
-    // Try to get the favourites object in localstorage
-    try {
-        storedDatas = JSON.parse(localStorage["favourites"])
-    } catch (error) {
-    }
-
-    // If there is already the favourites object
-    if (storedDatas) {
-
-      // Check if there is not already in the array, if not we retrieve all the data, add the new one and push it all
-      if (storedDatas.some(element => (element.id === result.id && element.title === result.title))) {
-        return 
-      }
-    } 
-  }
-
-
-*/
-
-
 
 
   // Function to create-add or add the localstorage object of favourites

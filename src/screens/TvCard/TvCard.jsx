@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom';
 import { useParams } from "react-router";
-import Navbar from '../../components/Navbar/Navbar';
 
 import CircularLoading from "../../components/CircularLoading/CircularLoading";
 
 import Swal from "sweetalert2";
 
 import './TvCard.css';
+import Navbar from './../../components/navbar/Navbar';
 
 function TvCard() {
     let { IdTv } = useParams()

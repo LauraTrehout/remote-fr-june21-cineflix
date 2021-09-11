@@ -1,10 +1,8 @@
 import { useState, useEffect, useRef } from "react";
-import { ArrowBackIosOutlined, ArrowForwardIosOutlined } from "@material-ui/icons";
 
-import Navbar from "../../components/Navbar/Navbar";
 import Footer from './../../components/Footer/Footer';
-
 import Carousel from './../../components/Carousel/Carousel';
+import Navbar from './../../components/navbar/Navbar';
 
 import './Categories.css';
 

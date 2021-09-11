@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 
-import Navbar from "../../components/Navbar/Navbar";
 import Footer from './../../components/Footer/Footer';
-
 import Carousel from './../../components/Carousel/Carousel';
+import Navbar from './../../components/navbar/Navbar';
 
 import '../MovieCategories/Categories.css';
 

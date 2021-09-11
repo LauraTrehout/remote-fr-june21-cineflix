@@ -4,9 +4,7 @@ import Banner from '../../components/Banner/Banner';
 import CircularLoading from "../../components/CircularLoading/CircularLoading";
 import Footer from '../../components/Footer/Footer';
 import TopContainer from '../../components/TopContainer/TopContainer';
-import Navbar from '../../components/Navbar/Navbar';
-
-
+import Navbar from './../../components/navbar/Navbar';
 import "./Home.css";
 
 

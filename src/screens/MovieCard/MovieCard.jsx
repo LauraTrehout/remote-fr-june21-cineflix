@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, NavLink } from "react-router-dom";
-import Navbar from '../../components/Navbar/Navbar';
+
 import Similar from '../../components/Similar/Similar';
 
 import Swal from "sweetalert2";
@@ -8,6 +8,7 @@ import Swal from "sweetalert2";
 import CircularLoading from "../../components/CircularLoading/CircularLoading";
 
 import './MovieCard.css'
+import Navbar from './../../components/navbar/Navbar';
 
 function MovieCard() {
     let { IdMovie } = useParams()

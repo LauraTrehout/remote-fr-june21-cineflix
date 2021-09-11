@@ -1,10 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import Swal from "sweetalert2";
 
-import Navbar from "../../components/Navbar/Navbar"
+import Navbar from './../../components/navbar/Navbar';
 
 import './Favourite.css'
 
